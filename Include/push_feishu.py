@@ -173,8 +173,8 @@ if __name__ == '__main__':
     # user_access_token = 'u-I9HQoL01HpshHoSbRdDjNh'
     print('user_access_token：{}'.format(user_access_token))
     if user_access_token is not None and user_access_token != '':
-        # time = time.strftime('%Y-%m-%d')
-        time = '2021-01-25'
+        time = time.strftime('%Y-%m-%d')
+        # time = '2021-01-25'
         # job页签数据推送
         additional_data(sheet_info['job'], time, user_access_token)
         # service页签数据推送
