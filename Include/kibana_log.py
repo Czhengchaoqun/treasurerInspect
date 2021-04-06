@@ -5,7 +5,7 @@ import datetime
 
 # ES实例化
 es = Elasticsearch(
-    '10.123.12.73:9200',
+    '127.0.0.1:9200',
     # sniff_on_start=True,  # 连接前测试
     sniff_on_connection_fail=True,  # 节点无响应时刷新节点
     sniff_timeout=120  # 设置超时时间
